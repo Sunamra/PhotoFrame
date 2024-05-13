@@ -1,0 +1,33 @@
+:root {
+	--mainColor: #121212;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.main {
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--mainColor);
+	border: solid var(--mainColor);
+	border-width: 35px 35px;
+	border-radius: 20px;
+	transition: 1s;
+}
+
+img {
+	max-width: 400px;
+	border-radius: 20px;
+}
+
+.break {
+	height: 35px;
+}
