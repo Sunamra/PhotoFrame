@@ -10,6 +10,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: black;
 	transition: 1s;
 }
 
@@ -33,7 +34,6 @@ img {
 .break {
 	height: 35px;
 }
-
 
 /* Media queries for responsiveness */
 @media (min-width: 600px) {
