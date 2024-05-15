@@ -26,8 +26,8 @@ body {
 }
 
 img {
-	max-height: 350px;
 	max-width: 400px;
+	height: auto;
 	border-radius: 20px;
 }
 
