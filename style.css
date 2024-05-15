@@ -16,7 +16,7 @@ body {
 }
 
 .main {
-	width: auto;
+	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	background-color: var(--mainColor);
